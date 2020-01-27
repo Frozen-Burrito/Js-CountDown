@@ -1,0 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    /*font-family: 'Source Code Pro', monospace; */
+    font-family: 'Kanit', sans-serif;
+
+    box-sizing: border-box;
+}
