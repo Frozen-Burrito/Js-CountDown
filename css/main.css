@@ -8,3 +8,31 @@ html, body {
 
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+#timer {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: rgb(17, 99, 177);
+    font-size: 8em;
+    text-align: center;
+}
+
+#description {
+    width: 80%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    color: rgb(231, 231, 231);
+    font-size: 2em;
+}

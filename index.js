@@ -1,8 +1,11 @@
 // Get the timer element
 const timer = document.getElementById("timer");
+const text = document.getElementById("description");
 
 // Set the date to count down
-const countDownDate = new Date("Sep 17, 2020 12:00:00").getTime();
+const countDownDate = new Date("Sep 17, 2020 12:00:00");
+
+text.innerHTML = `until ${countDownDate}`;
 
 const interval = setInterval(() => {
     
